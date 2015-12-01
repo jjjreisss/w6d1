@@ -16,8 +16,8 @@
     var that = this;
     // this.Game.draw(this.ctx);
     return window.setInterval(function() {
-      that.Game.moveObjects();
       that.Game.draw(that.ctx);
+      that.Game.step();
     }, 20);
   };
 
