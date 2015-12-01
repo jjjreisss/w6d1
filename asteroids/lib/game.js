@@ -49,7 +49,6 @@
       for (var j = i + 1; j < asteroids.length; j++) {
         if (asteroids[i].isCollidedWith(asteroids[j])) {
           asteroids[i].collideWith(asteroids[j]);
-          // alert("COLLISION");
         }
       }
     }
